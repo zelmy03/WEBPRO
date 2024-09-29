@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- Deklarasi tipe dokumen, memberitahu browser bahwa ini adalah dokumen HTML5 -->
+<html lang="id">
+<!-- Elemen root dari dokumen HTML -->
+
+<head>
+    <!-- Elemen head untuk metadata dokumen -->
+    <meta charset="UTF-8">
+    <!-- Menentukan set karakter dokumen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Memastikan tampilan responsif pada perangkat seluler -->
+    <title>Profil Pribadi</title>
+    <!-- Judul halaman yang muncul di tab browser -->
+</head>
+
+<body>
+    <!-- Elemen body yang berisi konten utama halaman -->
+
+    <h1>Profil Pribadi Zelmi Muhammad Adjel_1303223032_IT4601</h1>
+    <!-- Heading level 1 untuk judul utama halaman -->
+
+    <div>
+        <!-- Elemen div untuk mengelompokkan konten -->
+        <table>
+            <!-- Elemen table untuk menampilkan data dalam bentuk tabel -->
+            <tr>
+                <!-- Elemen tr untuk baris tabel -->
+                <th>Foto Profil </th>
+                <!-- Elemen th untuk header kolom pertama -->
+                <th>Video Perkenalan</th>
+                <!-- Elemen th untuk header kolom kedua -->
+            </tr>
+            <tr>
+                <td>
+                    <!-- Elemen td untuk data kolom pertama -->
+                    <img src="zelmi.jpg" alt="Foto Profil" align="left" width="175" height="175">
+                    <!-- Elemen img untuk menampilkan gambar profil -->
+                </td>
+                <td>
+                    <!-- Elemen td untuk data kolom kedua -->
+                    <video controls height="150" align="center">
+                        <!-- Elemen video untuk menampilkan video, dengan kontrol pemutaran -->
+                        <source src="zelmi.m4.mp4" type="video/mp4">
+                        <!-- Elemen source untuk menentukan sumber video -->
+                    </video>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>Tentang Saya</h2>
+    <!-- Heading level 2 untuk subjudul bagian tentang saya -->
+    <p>Halo! Saya adalah seorang Mahasiswa Teknologi Informasi dari kampus Telkom University Fakultas Informatika.</p>
+    <!-- Elemen p untuk paragraf deskripsi tentang saya -->
+
+    <div class="keterampilan">
+        <!-- Elemen div untuk mengelompokkan bagian keterampilan -->
+        <h2>Keterampilan</h2>
+        <!-- Heading level 2 untuk subjudul bagian keterampilan -->
+        <table>
+            <!-- Tabel untuk menampilkan data keterampilan -->
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>Golang</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="form-section">
+        <!-- Elemen div untuk mengelompokkan form kontak -->
+        <h2>Hubungi Saya</h2>
+        <!-- Heading level 2 untuk subjudul bagian form -->
+        <form action="/submit" method="post">
+            <!-- Elemen form untuk membuat form yang mengirim data dengan metode POST -->
+            <div>
+                <!-- Elemen div untuk mengelompokkan input nama -->
+                <label for="name">Nama:</label>
+                <!-- Elemen label untuk input teks nama -->
+                <input type="text" id="name" name="name" required>
+                <!-- Elemen input untuk memasukkan teks nama -->
+            </div>
+
+            <div>
+                <!-- Elemen div untuk mengelompokkan input email -->
+                <label for="email">Email:</label>
+                <!-- Elemen label untuk input email -->
+                <input type="email" id="email" name="email" required>
+                <!-- Elemen input untuk memasukkan email -->
+            </div>
+
+            <div>
+                <!-- Elemen div untuk mengelompokkan input pesan -->
+                <label for="message">Pesan:</label>
+                <!-- Elemen label untuk input pesan -->
+                <div>
+                    <!-- Div untuk mengelompokkan textarea -->
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    <!-- Elemen textarea untuk masukan pesan teks yang panjang -->
+                </div>
+            </div>
+
+            <div>
+                <!-- Elemen div untuk mengelompokkan tombol submit -->
+                <button type="submit">Kirim Pesan</button>
+                <!-- Elemen button untuk mengirimkan form -->
+            </div>
+        </form>
+    </div>
+
+    <div class="social-links">
+        <!-- Elemen div untuk mengelompokkan link media sosial -->
+        <h2>Media Sosial:</h2>
+        <!-- Heading level 2 untuk subjudul bagian media sosial -->
+        <a href="https://www.linkedin.com/in/zelmi-muhammad-adjel-883427330/" target="_blank">LinkedIn</a> |
+        <!-- Elemen anchor (a) untuk membuat link ke LinkedIn dengan target membuka di tab baru -->
+        <a href="https://www.instagram.com/zelmy03/" target="_blank">Instagram</a> |
+        <!-- Elemen anchor (a) untuk membuat link ke Instagram -->
+        <a href="https://x.com/zelmi20177470" target="_blank">Twitter</a> |
+        <!-- Elemen anchor (a) untuk membuat link ke Twitter -->
+        <a href="https://github.com/zelmy03/WEBPRO.git" target="_blank">GitHub</a>
+    </div>
+
+</body>
+</html>
